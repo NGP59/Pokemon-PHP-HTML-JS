@@ -1,0 +1,113 @@
+@font-face {
+  font-family: pokemon_pixel_font;
+  src: url("../font/pokemon_pixel_font.ttf");
+}
+
+* {
+  top: 0;
+}
+
+body {
+  background-image: url("../image/background.jpg");
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#sideJ1 {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+
+#sideJ2 {
+  display: flex;
+  justify-content: end;
+}
+
+div {
+  position: relative;
+}
+
+#p1 {
+  position: absolute;
+  /* background-color: black; */
+  width: 500px;
+  height: 500px;
+  z-index: -100;
+}
+
+#p2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  z-index: -100;
+  margin-left: -600px;
+}
+
+#pokemon1 {
+  position: absolute;
+
+  width: 250px;
+  height: 250px;
+  margin-left: 90px;
+  margin-top: 70px;
+  z-index: -1;
+}
+
+#pokemon2 {
+  width: 200px;
+  height: 200px;
+  margin-left: -450px;
+  margin-top: 120px;
+  z-index: -1;
+}
+
+#textHUD {
+  width: 1860px;
+  height: 200px;
+  margin-top: 330px;
+  margin-left: -10px;
+}
+
+#lifeMenuP1 {
+  position: absolute;
+  margin-left: 1390px;
+  margin-top: 474px;
+  width: 450px;
+  height: 150px;
+}
+
+#lifeMenuP2 {
+  position: absolute;
+  margin-left: -1760px;
+  margin-top: 204px;
+  width: 450px;
+  height: 150px;
+}
+
+#namePosition {
+  position: absolute;
+
+  margin-left: 205px;
+  margin-top: 214px;
+  font-size: 40px;
+}
+
+#namePosition1 {
+  position: absolute;
+  margin-left: 1510px;
+  margin-top: 490px;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+#resultat {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -150px;
+  font-size: 40px;
+}
